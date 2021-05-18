@@ -126,7 +126,8 @@ GEM
     pg (0.21.0)
     pg (0.21.0-x64-mingw32)
     public_suffix (3.0.0)
-    puma (3.10.0)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     rack (2.0.3)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -227,7 +228,7 @@ DEPENDENCIES
   grape-entity (= 0.6.1)
   jbuilder (~> 2.5)
   pg (~> 0.18)
-  puma (~> 3.7)
+  puma (~> 4.3)
   rails (~> 5.1.4)
   sass-rails (~> 5.0)
   selenium-webdriver
